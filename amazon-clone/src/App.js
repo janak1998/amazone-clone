@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './Header'
+import Home from './Home';
 function App() {
   return (
     //BEM
     <div className="app">
-      <h1>Hello Clever programmers, let's build the amazon Store 🚀</h1>
-      {/* Header  */}
-      {/* Home */}
-      
+     
+      <Header/>
+
+      <Home />
+
     </div>
   );
 }
